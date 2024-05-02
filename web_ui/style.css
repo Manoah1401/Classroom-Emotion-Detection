@@ -1,0 +1,206 @@
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      .orbitron-team-title {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .rajdhani-light {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .rajdhani-regular {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .rajdhani-medium {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .rajdhani-semibold {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .rajdhani-bold {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #fefffe;
+      }
+
+      .navbar {        
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        height: 15vh;
+        padding: 10px;
+        width: 100%;
+        background-color: #fefffe;
+        z-index: 10;
+      }
+
+      .navbar-title {
+        flex: 1 1 50%;
+        color: #414140;
+        display: flex;
+        align-items: center;
+        border-bottom: solid #f0ebd1;
+        height: 100%;
+      }
+
+      .navbar-title-heading {
+        border-right: solid #f0ebd1;
+        padding-right: 5vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .navbar-title h1 {
+        padding-left: 10px;
+      }
+
+      .navbar-content {
+        flex: 1 1 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: solid #f0ebd1;
+        justify-content: end;
+      }
+
+      .navbar-content-item {
+        padding: 20px;
+        border-left: solid #f0ebd1;
+      }
+
+      .navbar-content-item button {
+        background: none;
+        border: none;
+        color: #cf564f;
+        font-size:larger;
+      }
+
+      .main {
+        position: absolute;
+        margin-top: 15vh;
+        width: 100%;
+      }
+
+      .project-title {
+        position: relative;
+        font-size: large;
+        background-color: #414140;
+        color: #fefffe;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .chart-container {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 400px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar1 {
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .navbar1 select {
+        margin: 0 10px;
+        padding: 8px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #cf564f;
+        cursor: pointer;
+        background-color: #f0ebd1;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar1 select:focus {
+        outline: none;
+      }
+
+      .navbar1 option {
+        background-color: #fff;
+        color: #333;
+      }
+
+      .report-header {
+        background-color: #f0ebd1;
+        color: #cf564f;
+        padding: 10px;
+        border-radius: 8px 8px 0 0;
+      }
+
+      .report-header h3 {
+        margin: 0;
+      }
+
+      .report-details1 {
+        padding-top: 20px;
+        background-color: #ecf0f1;
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+        background-color: #f0ebd1;
+        color: #cf564f;
+      }
+
+      .person-info p {
+        margin: 5px 0;
+        color: #333;
+      }
+
+      .emotion-list {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+        width: 100%;
+        padding-bottom: 5px;
+      }
+
+      canvas {
+        background-color: #414140;
+        color: white;
+        padding-bottom: 10px;
+      }
+
+      .emotion-list li {
+        margin-bottom: 5px;
+      }
