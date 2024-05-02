@@ -36,9 +36,4 @@ Ensure you have the following dependencies installed:
 - OpenCV
 - TensorFlow
 - NumPy
-- etc. (List all dependencies here)
 
-You can install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
