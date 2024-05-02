@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emotional Analysis</title>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="chart.js"></script> -->
+    <script src="js_functions.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-title orbitron-team-title">
+        <div class="navbar-title-heading">
+          <h1>AISPARK</h1>
+        </div>
+      </div>
+      <div class="navbar-content">
+        <div class="navbar-content-item">
+          <button onclick="selectReport('overall')" class="rajdhani-semibold">
+            Overall
+          </button>
+        </div>
+        <div class="navbar-content-item">
+          <button
+            onclick="selectReport('individual')"
+            class="rajdhani-semibold"
+          >
+            Individual
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="project-title rajdhani-regular">
+        <h1>Class Emotion Report</h1>
+      </div>
+
+      <div class="navbar1">
+        <select
+          id="report-person"
+          onchange="selectPerson()"
+          style="display: none"
+        >
+          <option value="Student1">Student1</option>
+          <option value="Student2">Student2</option>
+          <option value="Student3">Student3</option>
+          <option value="Student4">Student4</option>
+          <option value="Student5">Student5</option>
+        </select>
+      </div>
+
+      <div id="reports" class="container"></div>
+    </div>
+  </body>
+</html>
