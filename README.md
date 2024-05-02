@@ -1,4 +1,4 @@
-# Emotion Detection and Recognition Project
+# Classroom Emotion Detection
 
 ## Overview
 
