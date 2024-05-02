@@ -37,3 +37,7 @@ Ensure you have the following dependencies installed:
 - TensorFlow
 - NumPy
 
+You can install the required dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
